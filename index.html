@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Percent Change Quiz</title>
+
+  <!-- Link to CSS for styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top line: question count -->
+  <p id="score" style="font-size: 18px; margin-top: 10px;"></p>
+
+  <!-- Large X → Y display -->
+  <p id="question" class="huge-question">Loading...</p>
+
+  <!-- Subtext below the numbers -->
+  <p id="subtext">estimate percent change</p>
+
+  <!-- Answer input with percent sign -->
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <input type="number" id="answer" placeholder="Your answer" />
+    <span style="font-size: 30px; margin-left: 10px;">%</span>
+  </div>
+
+  <!-- Buttons -->
+  <button onclick="checkAnswer()">Enter</button>
+  <button onclick="generateQuestion()">
+    New Question<br />
+    <small>(ctrl-enter)</small>
+  </button>
+
+  <!-- Feedback area -->
+  <p id="result"></p>
+
+  <!-- Final score display at bottom -->
+  <p id="finalScore" style="font-size: 18px; margin-top: 40px;"></p>
+
+  <!-- JavaScript logic -->
+  <script src="script.js"></script>
+</body>
+</html>

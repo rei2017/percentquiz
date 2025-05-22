@@ -1,0 +1,35 @@
+/* Makes the main number (X → Y) big and bold */
+.huge-question {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+/* Styles the smaller text under the big question */
+#subtext {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Keep body styling simple and centered */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+#result {
+  font-size: 20px;
+  margin-top: 20px;
+}
